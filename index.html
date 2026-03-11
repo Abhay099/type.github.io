@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fleshtyping | a monkeytype clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="app">
+        <header>
+            <div class="logo">
+                <span class="flesh">flesh</span>typing
+            </div>
+            <nav class="config">
+                <div class="group">
+                    <button class="active" data-config-type="mode" data-config-value="time">time</button>
+                    <button data-config-type="mode" data-config-value="words">words</button>
+                </div>
+                <div class="spacer"></div>
+                <div class="group" id="time-config">
+                    <button data-config-type="time" data-config-value="15">15</button>
+                    <button class="active" data-config-type="time" data-config-value="30">30</button>
+                    <button data-config-type="time" data-config-value="60">60</button>
+                    <button data-config-type="time" data-config-value="120">120</button>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div id="game-container">
+                <div id="typing-area">
+                    <div id="caret"></div>
+                    <div id="words-container"></div>
+                </div>
+                <input type="text" id="hidden-input" autocomplete="off" autocapitalize="off" autofocus>
+            </div>
+
+            <div id="results" class="hidden">
+                <div class="stats-row">
+                    <div class="stat">
+                        <div class="label">wpm</div>
+                        <div class="value" id="res-wpm">0</div>
+                    </div>
+                    <div class="stat">
+                        <div class="label">acc</div>
+                        <div class="value" id="res-acc">0%</div>
+                    </div>
+                </div>
+                <div class="chart-container">
+                    <!-- Chart placeholder -->
+                </div>
+            </div>
+
+            <div id="timer" class="hidden">30</div>
+        </main>
+
+        <footer>
+            <div class="shortcuts">
+                <span><kbd>tab</kbd> + <kbd>enter</kbd> - restart test</span>
+            </div>
+            <div class="developer-info">
+                developed by Abhay kr. Yadav
+            </div>
+            <div class="theme-info">
+                <span>theme: metropolis</span>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
