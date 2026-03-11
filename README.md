@@ -2,7 +2,7 @@
 
 A high-performance, minimalist typing test application inspired by Monkeytype.
 
-![Fleshtyping Main Interface](file:///Users/abhaykumaryadav/.gemini/antigravity/brain/29b473d5-3ffd-4016-b127-7466610869b5/.system_generated/click_feedback/click_feedback_1773211036598.png)
+![Fleshtyping Main Interface](https://abhay099.github.io/type.github.io/)
 
 ## Features
 
