@@ -2,7 +2,8 @@
 
 A high-performance, minimalist typing test application inspired by Monkeytype.
 
-![Fleshtyping Main Interface](https://abhay099.github.io/type.github.io/)
+[Fleshtyping Main Interface](https://abhay099.github.io/type.github.io/)
+
 
 ## Features
 
